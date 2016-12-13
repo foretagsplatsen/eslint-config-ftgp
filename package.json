@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ftgp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "eslint configuration for all ftgp javascript projects ",
   "main": "index.js",
   "repository": {
@@ -21,6 +21,7 @@
     "eslint-plugin-ftgp": ">= 1",
     "eslint-plugin-jasmine": "^2.2.0",
     "eslint-config-standard": "^6.2.1",
-    "eslint-plugin-standard": "^2.0.1"
+    "eslint-plugin-standard": "^2.0.1",
+    "eslint-plugin-promise": ">=3.3.0"
   }
 }
