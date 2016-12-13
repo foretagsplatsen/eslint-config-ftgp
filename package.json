@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-ftgp",
+  "version": "0.1.0",
+  "description": "eslint configuration for all ftgp javascript projects ",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foretagsplatsen/eslint-config-ftgp.git"
+  },
+  "keywords": ["eslint", "eslintconfig"],
+  "author": "Damien Cassou <damien.cassou@foretagsplatsen.se",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foretagsplatsen/eslint-config-ftgp/issues"
+  },
+  "homepage": "https://github.com/foretagsplatsen/eslint-config-ftgp#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "dependencies": {
+    "eslint-plugin-ftgp": ">= 1",
+    "eslint-plugin-jasmine": "^2.2.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-standard": "^2.0.1"
+  }
+}
