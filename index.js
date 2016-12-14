@@ -3,7 +3,6 @@
 
 	module.exports = {
 		root: true,
-		installedESLint: true,
 		formatter: "unix",
 		plugins: [
 			"ftgp",
