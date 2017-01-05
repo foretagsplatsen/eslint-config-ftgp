@@ -19,6 +19,10 @@
 			jquery: true,
 			node: true
 		},
+		globals: {
+			"_": false,
+			"MathJax": false
+		},
 		rules: {
 			"array-callback-return": 2,
 			"consistent-return": error,
