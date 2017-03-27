@@ -18,7 +18,7 @@
     "eslint": ">= 3"
   },
   "dependencies": {
-    "eslint-plugin-ftgp": ">= 1",
+    "eslint-plugin-ftgp": "1.4.1",
     "eslint-plugin-jasmine": "^2.2.0",
     "eslint-config-standard": "^6.2.1",
     "eslint-plugin-standard": "^2.0.1",
