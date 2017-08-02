@@ -41,6 +41,7 @@
 			"jasmine/no-spec-dupes": error,
 			"jasmine/valid-expect": error,
 			"jasmine/no-unsafe-spy": 0,
+			'jasmine/prefer-toHaveBeenCalledWith': 0,
 			"keyword-spacing": error,
 			"linebreak-style": [error, "unix"],
 			"one-var": [error, "never"],
