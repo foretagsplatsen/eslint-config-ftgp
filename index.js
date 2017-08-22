@@ -6,7 +6,8 @@
 		formatter: "unix",
 		plugins: [
 			"ftgp",
-			"jasmine"
+			"jasmine",
+			"amd-imports"
 		],
 		extends: [
 			"eslint:recommended",
@@ -20,6 +21,7 @@
 			node: true
 		},
 		rules: {
+			"amd-imports/no-unexisting-imports": error,
 			"array-callback-return": 2,
 			"consistent-return": error,
 			"curly": error,
