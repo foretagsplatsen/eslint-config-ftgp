@@ -3,7 +3,6 @@
 
 	module.exports = {
 		root: true,
-		formatter: "unix",
 		plugins: [
 			"ftgp",
 			"jasmine"
