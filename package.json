@@ -17,6 +17,9 @@
   "peerDependencies": {
     "eslint": ">= 5"
   },
+  "scripts": {
+    "test": "echo 'There are no tests' >&2"
+  },
   "dependencies": {
     "eslint-plugin-ftgp": "foretagsplatsen/ftgp-eslint#1.5.0",
     "eslint-plugin-jasmine": "^2.10.1",
