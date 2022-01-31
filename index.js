@@ -1,3 +1,5 @@
+const cssClassNameKeywords = ["class", "klass"];
+
 (function() {
 	var error = 2;
 
@@ -25,15 +27,14 @@
 			"default-case": error,
 			"eol-last": [error, "unix"],
 			"eqeqeq": error,
-			"ftgp/ensure-dependency-order": [error, {"jquery": "jQuery"}],
-			"ftgp/indent": [error, "tab", {"SwitchCase": 1}],
-			"ftgp/only-literal-polyglots": error,
-			"ftgp/no-dot-dot-in-define": error,
+			"ftgp/no-class-name-array-nesting": [error, {keywords: cssClassNameKeywords}],
+			"ftgp/no-class-name-template": [error, {keywords: cssClassNameKeywords}],
+			"ftgp/no-class-name-ternary": [error, {keywords: cssClassNameKeywords}],
+			"ftgp/no-class-name-useless": [error, {keywords: cssClassNameKeywords}],
 			"ftgp/no-concatenated-polyglots": error,
-			"ftgp/no-define-on-multiple-lines": error,
-			"ftgp/no-define-unused-dependency": error,
-			"ftgp/no-define-with-less-than-2-arguments": error,
 			"ftgp/no-untrimmed-polyglots": error,
+			"ftgp/only-literal-polyglots": error,
+			"ftgp/only-single-class-name-in-array": [error, {keywords: cssClassNameKeywords}],
 			"ftgp/require-class-comment": [error, {"matchDescription": "\\.$"}],
 			"func-style": [error, "declaration"],
 			"jasmine/no-suite-dupes": error,
