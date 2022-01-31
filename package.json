@@ -21,7 +21,7 @@
     "test": "echo 'There are no tests' >&2"
   },
   "dependencies": {
-    "eslint-plugin-ftgp": "foretagsplatsen/ftgp-eslint#1.5.0",
+    "eslint-plugin-ftgp": "^2.0.0",
     "eslint-plugin-jasmine": "^4.1.3",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-standard": "^5.0.0",
