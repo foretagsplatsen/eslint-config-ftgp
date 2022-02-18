@@ -2,19 +2,11 @@
 # yarn lockfile v1
 
 
-doctrine@^3.0.0:
+eslint-plugin-ftgp@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.yarnpkg.com/doctrine/-/doctrine-3.0.0.tgz#addebead72a6574db783639dc87a121773973961"
-  integrity sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ftgp/-/eslint-plugin-ftgp-3.0.0.tgz#a67521b1266d2a1a741eaf4b288700f25dbcb16e"
+  integrity sha512-zZ+lvPPaYxqcDC5SQT4p3mU/d7icYwfvDGML45egdxs0Z118R57uAid556bec34NDmnXjNhIQWE7RdOAPEWA5A==
   dependencies:
-    esutils "^2.0.2"
-
-eslint-plugin-ftgp@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ftgp/-/eslint-plugin-ftgp-2.1.0.tgz#9f3c9a9852ed31d6ccfbe6648b29f1651a631342"
-  integrity sha512-gHVycGVk9uJbPOTNTOKGkg/hr2itZzlmkDHjXKGa5PeGrnwoBPQB//omhahYBmGZI3bJAqcV973EaPfpa5/wjQ==
-  dependencies:
-    doctrine "^3.0.0"
     requireindex "~1.2.0"
 
 eslint-plugin-jasmine@^4.1.3:
@@ -25,10 +17,6 @@ eslint-plugin-promise@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-6.0.0.tgz#017652c07c9816413a41e11c30adc42c3d55ff18"
   integrity sha512-7GPezalm5Bfi/E22PnQxDWH2iW9GTvAlUNTztemeHb6c1BniSyoeTrM87JkC0wYdi6aQrZX9p2qEiAno8aTcbw==
-
-esutils@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.2.tgz#0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b"
 
 requireindex@~1.2.0:
   version "1.2.0"
