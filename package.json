@@ -15,16 +15,14 @@
   },
   "homepage": "https://github.com/foretagsplatsen/eslint-config-ftgp#readme",
   "peerDependencies": {
-    "eslint": ">= 5"
+    "eslint": "^8.0.0"
   },
   "scripts": {
     "test": "echo 'There are no tests' >&2"
   },
   "dependencies": {
-    "eslint-plugin-ftgp": "^2.0.0",
+    "eslint-plugin-ftgp": "^2.1.0",
     "eslint-plugin-jasmine": "^4.1.3",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-standard": "^5.0.0",
-    "eslint-plugin-promise": ">=3.8.0"
+    "eslint-plugin-promise": "^6.0.0"
   }
 }
