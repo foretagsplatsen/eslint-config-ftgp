@@ -35,7 +35,6 @@ const cssClassNameKeywords = ["class", "klass"];
 			"ftgp/no-untrimmed-polyglots": error,
 			"ftgp/only-literal-polyglots": error,
 			"ftgp/only-single-class-name-in-array": [error, {keywords: cssClassNameKeywords}],
-			"ftgp/require-class-comment": [error, {"matchDescription": "\\.$"}],
 			"func-style": [error, "declaration"],
 			"jasmine/no-suite-dupes": error,
 			"jasmine/no-spec-dupes": error,
