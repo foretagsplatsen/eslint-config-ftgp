@@ -8,7 +8,6 @@
     "url": "git+https://github.com/foretagsplatsen/eslint-config-ftgp.git"
   },
   "keywords": ["eslint", "eslintconfig"],
-  "author": "Damien Cassou <damien.cassou@foretagsplatsen.se",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/foretagsplatsen/eslint-config-ftgp/issues"
