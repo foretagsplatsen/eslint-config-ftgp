@@ -17,7 +17,7 @@
     "eslint": "^8.0.0"
   },
   "scripts": {
-    "test": "echo 'There are no tests' >&2"
+    "lint:js": "eslint --report-unused-disable-directives ."
   },
   "dependencies": {
     "eslint-plugin-ftgp": "^3.0.0",
