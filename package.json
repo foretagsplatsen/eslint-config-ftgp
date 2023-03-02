@@ -8,7 +8,6 @@
     "url": "git+https://github.com/foretagsplatsen/eslint-config-ftgp.git"
   },
   "keywords": ["eslint", "eslintconfig"],
-  "author": "Damien Cassou <damien.cassou@foretagsplatsen.se",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/foretagsplatsen/eslint-config-ftgp/issues"
@@ -18,11 +17,18 @@
     "eslint": "^8.0.0"
   },
   "scripts": {
-    "test": "echo 'There are no tests' >&2"
+    "lint:js": "eslint --report-unused-disable-directives ."
   },
   "dependencies": {
     "eslint-plugin-ftgp": "^3.0.0",
     "eslint-plugin-jasmine": "^4.1.3",
     "eslint-plugin-promise": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": ">= 8",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-eslint-plugin": "^5.0.8",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4"
   }
 }
