@@ -60,7 +60,6 @@ const cssClassNameKeywords = ["class", "klass"];
 			"no-unused-vars": [error, { args: "none" }],
 			"no-useless-call": error,
 			"no-use-before-define": [error, "nofunc"],
-			"one-var": [error, "never"],
 			quotes: [error, "single"],
 			semi: [error, "always"],
 			"semi-spacing": ["error", { before: false, after: true }],
