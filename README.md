@@ -1,1 +1,2 @@
-Make sure all our JavaScript projects share the same coding guidelines.
+This project isn't maintained anymore. See the commit history if you
+still care about it.
